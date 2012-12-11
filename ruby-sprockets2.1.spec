@@ -32,3 +32,14 @@ rm -rf %{buildroot}%{ruby_gemdir}/cache
 %{ruby_gemdir}/gems/%{gemname}-%{version}
 %{ruby_gemdir}/specifications/%{gemname}-%{version}.gemspec
 %doc %{ruby_gemdir}/doc/%{gemname}-%{version}
+
+
+%changelog
+* Thu May 03 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 2.1.3-2
++ Revision: 795329
+- fix dependencies generation
+
+* Sat Apr 28 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 2.1.3-1
++ Revision: 794309
+- imported package ruby-sprockets2.1
+
