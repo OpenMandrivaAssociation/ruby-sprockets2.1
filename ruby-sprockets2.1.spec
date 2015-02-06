@@ -4,7 +4,7 @@
 Summary:	Sprockets is a Rack-based asset packaging system
 Name:		ruby-%{gemname}2.1
 Version:	2.1.3
-Release:	2
+Release:	3
 Source0:	http://rubygems.org/downloads/%{gemname}-%{version}.gem
 License:	MIT
 Group:		System/Servers
